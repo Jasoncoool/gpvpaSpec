@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
-    spec.public_header_files = "GPVAPSDK/sdkframework/sdkframework.h"
+  # spec.public_header_files = "GPVAPSDK/sdkframework/sdkframework.h"
 
 # 此处暴露的是framework
   spec.vendored_frameworks = "GPVAPSDK/Products/sdkframework.framework"
